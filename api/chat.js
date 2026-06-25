@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 
 const PROMPT_ID = "pmpt_6a3a2855a1e88190a5d9e64984715e6e09aada6e70b6a566";
-const PROMPT_VERSION = "5";
+const PROMPT_VERSION = "6";
 
 export default async function handler(req, res) {
   try {
